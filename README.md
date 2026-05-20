@@ -2,6 +2,11 @@
 
 Teensy 4.1 firmware for testing USB serial transfer reliability.
 
+See [this blog post](https://stpr-dev.github.io/embedded/2026/05/19/teensy-usb-serial-max-speed/) for more information about why 
+this repo exists. 
+
+For companion Python script, [see this repository](https://github.com/stpr-dev/teensy41-serial-companion-python).
+
 ## Introduction
 
 This project uses PlatformIO. It runs on a Teensy 4.1 and is designed to work with a companion program on a PC that initiates transfers and verifies data integrity.
